@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai kopi 69</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f4f4f4 0%, #e8d5b7 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://via.placeholder.com/1200x400/8B4513/ffffff?text=Coffee+Background') no-repeat center center;
+            background-size: cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin-right: 30px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1;
+            position: relative;
+        }
+        .header-content {
+            flex: 1;
+            z-index: 1;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+        nav {
+            background: linear-gradient(135deg, #A0522D 0%, #CD853F 100%);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #FFD700;
+            transform: translateY(-2px);
+        }
+        section {
+            padding: 40px;
+            margin: 30px auto;
+            max-width: 1200px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        h2 {
+            color: #8B4513;
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        li {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .menu-item span:first-child {
+            font-weight: 200;
+            flex: 1;
+        }
+        .menu-item span:last-child {
+            font-weight: bold;
+            color: #8B4513;
+            margin-left: auto;
+            white-space: nowrap;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            color: white;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .logo {
+                margin-bottom: 20px;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            ul {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="c:\Users\user\Pictures\unnamed.jpg" alt="Logo kedai kopi classic 69" class="logo">
+        <div class="header-content">
+            <h1>Selamat Datang di kedai kopi classic 69</h1>
+            <p>Nikmati hari dengan segelas kopi di kedai kopi kami.</p>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#service">Customer Service</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>kedai kopi classic 69 tempat ternyaman untuk kalian bisa menikmati kopi dan beberapa minuman yang tersedia selain itu kedai kopi 69 menawarkan harga yang terjangkau cocok untuk kantong mahasiswa yang ingin mengerjakan tugas atau sekedar berbual menemani hari hari kalian </p>
+    </section>
+    
+    <section id="menu">
+        <h2>our drink</h2>
+        <ul>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Espresso" alt="kopi">
+                <span>Kopi</span><span>Rp5.000(panas)-RP6.000(dingin)</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Cappuccino" alt="teh">
+                <span>teh</span><span>5.000(panas) 6.000(dingin)</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Latte" alt="nama">
+                <span>nama</span><span>harga</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Americano" alt="nama">
+                <span>nama</span><span>harga</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Mocha" alt="nama">
+                <span>nama</span><span>harga</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Croissant" alt="">
+                <span>Croissant</span><span>Rp 20.000</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Pie+Apel" alt="Pie Apel">
+                <span>Pie Apel</span><span>Rp 25.000</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Espresso" alt="kopi">
+                <span>Kopi</span><span>5.000(panas)  6.000(dingin)</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Espresso" alt="kopi">
+                <span>Kopi</span><span>5.000(panas)  6.000(dingin)</span>
+            </li>
+            <li class="menu-item">
+                <img src="https://via.placeholder.com/80x80?text=Espresso" alt="kopi">
+                <span>Kopi</span><span>5.000(panas)  6.000(dingin)</span>
+            </li>
+            
+        </ul>
+        <p>Semua menu tersedia dalam ukuran regular dan large. Tambahan topping tersedia dengan biaya tambahan.</p>
+    </section>
+    
+    <section id="service">
+        <h2>Customer Service</h2>
+        <p>Kami siap melayani Anda dengan sepenuh hati. Jika ada pertanyaan atau keluhan, hubungi kami kapan saja.</p>
+        <ul>
+            <li><strong>Jam Buka:</strong> Senin-Jumat: 07:00 - 22:00, Sabtu-Minggu: 08:00 - 23:00</li>
+            <li><strong>Layanan:</strong> WiFi gratis, area duduk nyaman, pesan antar (dalam radius 5 km)</li>
+            <li><strong>Kebijakan:</strong> Pengembalian uang untuk produk yang tidak sesuai. Kami menerima saran untuk perbaikan.</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jl. Kopi No. 123, Jakarta Pusat</p>
+        <p>Telepon: 0812-3456-7890</p>
+        <p>Email: info@kopienak.com</p>
+        <p>Ikuti kami di Instagram: @kopienakshop</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Coffee Shop Kopi Enak. Semua hak dilindungi.</p>
+    </footer>
+    
+    <script>
+        // Script sederhana untuk smooth scroll ke section
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
